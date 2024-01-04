@@ -1,7 +1,7 @@
 name: Nodejs
 on: workflow_dispatch
 jobs:
-  First job:
+  First-job:
     runs-on: ubuntu-latest
     steps:
       - name: print
