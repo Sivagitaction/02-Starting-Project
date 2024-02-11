@@ -1,0 +1,10 @@
+name: clone
+on: push
+jobs:
+  To clone:
+    runs-on: ubuntu-latest
+    Steps:
+      - name: cloning this repo
+      - uses: actions/checkout@v4
+      - name: print
+        run: echo "cloning successful"
