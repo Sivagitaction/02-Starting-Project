@@ -1,9 +1,9 @@
 name: clone
 on: push
 jobs:
-  To clone:
+  To-clone:
     runs-on: ubuntu-latest
-    Steps:
+    steps:
       - name: cloning this repo
       - uses: actions/checkout@v4
       - name: print
